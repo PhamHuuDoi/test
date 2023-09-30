@@ -7,7 +7,6 @@ struct danhSach {
 };
 void nhap(danhSach& a) {
 	cout << "nhap so phan tu : ";
-	cin >> a.n;
 	for (int i = 0; i < a.n; i++)
 	{
 		cout << "nhap phan tu thu " << i << ":";
@@ -86,6 +85,7 @@ int binarysearch(danhSach x, int target) {
 	return -1;
 }
 int main() {
+	cout<<"doi lol";
 	danhSach x;
 	nhap(x);
 	xuatds(x);
