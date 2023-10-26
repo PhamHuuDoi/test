@@ -13,6 +13,7 @@ void nhap(danhSach& a) {
 		cin >> a.ds[i];
 	}
 }
+//hiiiii
 void xuatds(danhSach x) {
 	for (int i = 0; i < x.n; i++)
 		cout << x.ds[i] << "\t";
